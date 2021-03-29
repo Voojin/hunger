@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+
+    <title>HUNGER</title>
+</head>
+
+<body>
+    <header style="background-image: url(img/header-bg.png);" class="main_nav_list">
+        <ul id="home" class="nav_list">
+            <li class="nav_item"><a href="#home"> HOME</a></li>
+            <li class="nav_item"><a href="#about"> ABOUT</a></li>
+            <li class="nav_item"><a href="#team"> TEAM</a></li>
+            <li class="nav_item"><a href="#book"> BOOKING</a></li>
+            <li class="rul"><img src="img/rul.png" alt=""></li>
+            <li class="nav_item"><a href="#menu"> MENU</a></li>
+            <li class="nav_item"><a href="#galerie"> GALERIE</a></li>
+            <li class="nav_item"><a href="#events"> EVENTS</a></li>
+            <li class="nav_item"><a href="#contact"> CONTACT</a></li>
+        </ul>
+        <div class="col">
+            <div class="works_hour">
+                Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+            </div>
+            <div class="main_1">
+                <h2 class="h2_main"> RESTAURANT</h2>
+
+                <h1 class="h1_main">hungry people</h1>
+
+
+                <span class="yellow_line"> <img src="img/yellow_line.png" alt=""></span>
+                <div class="main_bt">
+                    <a href="#book">
+                        <div class="bt1"> <button class=" bt_main">BOOK TABLE</button></div>
+                    </a>
+                    <a href="#book">
+                        <div class="bt2"><button class="bt_main">EXPLORE</button></div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="social">
+                <span class="soc_link_fb"><a href="https://www.facebook.com/"> <img class="soc_link_fbhov"
+                            src="img/facebook.png" alt=""></a></span>
+                <span class="soc_link_tw"><a href="https://twitter.com/?lang=ru"><img class="soc_link_twhov"
+                            src="img/twitter.png" alt=""></a></span>
+                <span class="soc_link_ins"><a href="https://www.instagram.com/?hl=ru"><img class="soc_link_insthov"
+                            src="img/instagram.png" alt=""></a></span>
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+    <main>
+        <div id="about" class="about">
+            <div class="text">
+                <h3 class="about_h3">about us</h3>
+                <span class="yellow_line2"><img src="img/yellow_line.png" alt=""></span>
+                <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                    tempor magna.</b>
+                <p class="p_about">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+                    ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                    lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla <br>facilisis semper
+                    laoreet.</p>
+            </div>
+            <div class="pic"><img src="img/Groupabout.png" alt=""></div>
+        </div>
+        <section id="team" class="team" style="background-image: url(img/specialty\'s-bg.png);">
+            <h2 class="team_h2">OUR TEAM</h2>
+            <div class="about_cont">
+                <div class="about_pic">
+                    <img src="img/GroupTEAM.png" alt="">
+                </div>
+                <div class="about_cheff">
+                    <h3 class="cheff_h3">MASTER CHEF</h3>
+                    <span class="yellow_line3"> <img src="img/yellow_line.png" alt=""></span>
+                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.</b>
+
+                    <p>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                        quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <div id="book" class="book">
+            <div class="text">
+                <h3 class="book_h3">book a table</h3>
+                <span class="yellow_line4"><img src="img/yellow_line.png" alt=""></span>
+                <form id="bookform" action="https://echo.htmlacademy.ru" method="post" class="book_table">
+                    <div class="in1"><input required name="name" class="input_name" type="text" placeholder="Name">
+                    </div>
+                    <div class="in2"><input required name="email" class="input_mail" type="text" placeholder="Email">
+                    </div>
+                    <div class="in3"><input required name="phone" class="input_phone" type="tel" placeholder="Phone">
+                    </div>
+                    <div class="in4">
+
+                        <select required name="people" class="input_people">
+
+                            <option value="People">People</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+
+                    <div class="in5"><input required name="date" class="input_date" type="date"
+                            placeholder="Date (mm/dd)"> </div>
+                    <div class="in6"><input required name="time" class="input_time" type="time"
+                            placeholder="Date (mm/dd)"> </div>
+                    <div class="btn_book">
+                        <button form="bookform" class="btbook">BOOK NOW</button>
+                    </div>
+                </form>
+            </div>
+            <div class="picbook"><img src="img/Group3TABLE.png" alt=""></div>
+        </div>
+        <span class="time_line">Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun:<b> 8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40
+                726 458 782</b></span>
+
+
+
+        <section id="menu" class="choko" style="background-image: url(img/choko-bg.png);">
+            <h2 class="choko_h2"> specialties</h2>
+            <div class="choko_cont">
+                <div class="choko_pic">
+                    <img src="img/Group123.png" alt="">
+                </div>
+                <div class="about_cheff">
+                    <h3 class="choko_h3">chocolate pancakes</h3>
+                    <span class="yellow_line6"> <img src="img/yellow_line.png" alt=""></span>
+                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+                        tempor magna.</b>
+
+                    <p>
+                        Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+                        ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+                        quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="events" class="ivent" style="background-image: url(img/PrivateEvents_bg.png);">
+            <h2 class="ivent_h2"> PRIVATE EVENTS</h2>
+            <div class="ivent_cont">
+                <div class="ivent_pic">
+                    <img src="img/iv1.png" alt="">
+                </div>
+                <div class="ivent_pic2">
+                    <img src="img/iv2.png" alt="">
+                </div>
+            </div>
+            <span class="ivent_line">For private events please call: +40 729 131 637/+40 726 458 782 or use the contact
+                form.</span>
+        </section>
+
+
+        <section id="galerie" class="fourimg">
+            <div class="img_item"><img src="img/item1.png" alt=""></div>
+            <div class="img_item"><img src="img/item2.png" alt=""></div>
+            <div class="img_item"><img src="img/item3.png" alt=""></div>
+            <div class="img_item"><img src="img/item4.png" alt=""></div>
+
+        </section>
+
+        <section id="contact" class="contacts">
+            <h3 class="contact_h3">CONTACT</h3>
+            <span class="yellow_line5"><img src="img/yellow_line.png" alt=""></span>
+            <span class="cont_sec"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                    molestie est a, tempor magna.</b></span>
+
+            <form id="qwe" action="https://echo.htmlacademy.ru" method="post" class="feedback">
+                <input required name="your-name" class="input_name_ft js-input" type="text" placeholder="Name">
+                <input required name="email" class="input_mail_ft js-input" type="email" placeholder="Email">
+                <input required name="phone" class="input_phone_ft js-input" type="tel" placeholder="Phone">
+
+                <textarea required name="text" class="in4c js-message" placeholder="Message"></textarea>
+            </form>
+            <div class="feed_adr">
+                <span class="feed_adress_ft">5th London Boulevard, U.K. +40 729 131 637/+40 726 458 782
+                    office@mindblister.com</span>
+
+                <button form="qwe" type="submit" class="feed_btn js-submit">SEND MESSAGE</button>
+            </div>
+
+        </section>
+        <section id="map">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22347.47610534316!2d-122.69677628779809!3d45.56170006236543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%205th%20London%20Boulevard%2C%20U.K!5e0!3m2!1sru!2sru!4v1616923754455!5m2!1sru!2sru"
+                width="1300" height="575" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <footer class="footer">
+            © Copyright Mindblister 2019
+        </footer>
+</body>
+
+</html>
